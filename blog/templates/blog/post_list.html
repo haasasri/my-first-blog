@@ -10,6 +10,11 @@
 		<div>
 		<p>hello everyone</p>
 		</div>
+		{% for post in posts %}
+		<div>
+		<p>hii</p>
+		</div>
+		{% endfor %}
         {% for post in posts %}
     <div>
         <p>published: {{ post.published_date }}</p>
